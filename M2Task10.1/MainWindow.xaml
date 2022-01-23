@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:M2Task10._1"
         mc:Ignorable="d"
         Title="Отражение" Height="600" Width="800" Background="#CCCCCC">
+    
     <StackPanel>
+        <Border Height="20"/>
         <Border BorderBrush="White" BorderThickness="5" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Image Source ="Data/skyscrapers.jpg" Width="400" Height="240" x:Name="myImage"/>
             <Border.Effect>
